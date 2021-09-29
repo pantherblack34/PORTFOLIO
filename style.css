@@ -112,7 +112,7 @@ body{
 }
 .footer {
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 3rem;
@@ -137,4 +137,29 @@ body{
     border-radius: 1rem;
     text-align: center;
     margin: 3rem auto;
+}
+/*------blogR-------*/
+
+.section-read{
+    display: block;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    font-size: x-large;
+}
+.section-read h2{
+    text-align: center;   
+}
+.section-read img{
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+}
+.section-read ol li{
+    padding: 0.5rem;    
+}
+.section-read ul{
+    list-style: square;
 }

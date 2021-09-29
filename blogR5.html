@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READ BLOGS|AMAL OUSEPH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav brand">
+            <a href="https://pantherblack5.netlify.app/" class="link link-active">AmalOuseph</a>
+        </div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="https://pantherblack5.netlify.app/" class="link link-active">HOME</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="project.html" class="link">PROJECTS</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="blogs.html" class="link">BLOGS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="section-read">
+        <h2>REACT.JS</h2>
+        <img src="/image/reactjs.png" alt="REACT JS">
+        <p>ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library which is responsible only for the view layer of the application.The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. It uses virtual DOM (JavaScript object), which improves the performance of the app.</p> 
+        <ul>
+            <li>
+                <strong>DECLARATIVE</strong> - A declarative style, like what react has, allows you to control flow and state in your application by saying <strong>"It should look like this"</strong> where as in an imperative style turns that around and allows you to control your application by saying <strong>"This is what you should do"</strong></li>.
+            </li>
+            <li>
+                <strong>COMPONENT BASED</strong> - Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but <strong>work in isolation and return HTML via a render() function</strong>. Components come in two types, Class components and Function components
+            </li>
+            <li>
+                <strong>Learn Once,Write Anywhere</strong> - This means you have to learn one stuff and even if you switch from one platform to another the concept of previous language is still able to use in this platform which will help you to learn, understand and debug the code with ease.
+            </li>
+        </ul>
+        <ol>
+            <p>In this lecture we are using <strong>CodeSandbox</strong>, which is an online code editor and prototyping tool that makes creating and sharing web apps faster.</p>
+            <li>
+                What I first encountered in codesandbox is that there are multiple folders which contain JSON files, than after viewing the video I understand how the <strong>REACT</strong> in <strong>CodeSandbox</strong> works.
+            </li>
+            <li>
+                How the codesandbox works is that,there is a folder which contains styling part i.e,style.css which transforms the style in the file which contains app.js which in turn change the index.js which ultimately change the index.html via an <strong>id element "root"</strong>.In short, style.css >> app.js >> index.js >> index.html.
+            </li>
+            <li>
+                to edit in html, you have to edit it in app.js which will reflect the changed element in index.html.This is called rendering.
+            </li>
+            <li>
+                If you want to add style,you can add it in style.css whereas if you want to add style in app.js than you have to use an object to define the style in app.js.
+            </li>
+            <li>
+                The naming convention in app.js is little bit different as compared to CSS,here it follows <strong>BEM</strong> naming convention.
+            </li>
+            <li>
+                There are two different types of curly brackets {}:
+                <ul>
+                    <li>
+                        Single Curly Bracket {function} - Which defines the function.
+                    </li>
+                    <li>
+                        Double Curly Brackets {{Object}} - which defines the style component object to be used.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>JSX</h3>JSX stands for JavaScript XML. It is simply a syntax extension of JavaScript. It allows us to directly write HTML in React (within JavaScript code). ... It is faster than normal JavaScript as it performs optimizations while translating to regular JavaScript.
+            </li>
+            <li>
+                <strong>{useState}</strong> - useState is a Hook that allows you to have state variables in functional components. You pass the initial state to this function and it returns a variable with the current state value and another function to update this value.
+            </li>
+            <li>
+                <strong>Hooks</strong> - Hooks allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+            </li>
+            <li>
+                <strong>Arrow Function ()=>{code inside}</strong> - In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever. With arrow functions, the this keyword always represents the object that defined the arrow function.
+            </li>
+            <li>
+                <strong>Map()</strong> - The map() function is used to iterate over an array and manipulate or change data items. In React, the map() function is most commonly used for rendering a list of data to the DOM.The map() function only works with arrays.
+            </li>
+            <li>
+                To convert <strong>Objects{}</strong> into <strong>arrays[]</strong> - There are three ways to convert:
+                <ul>
+                    let object = {"name" : "kingkong", "power" : "smash"};
+                    <li>
+                        <b>Object.keys(object variable)</b> : By using key we get, only the key values.Ex:-Object.keys(object) we get ["name", "power"]
+                    </li>
+                    <li>
+                        <b>Object.values(object variable)</b> : By using key we get only pair values.Ex:- Object.values(object) we get ["kingkong", "smash"]
+                    </li>
+                    <li>
+                        <b>Object.entries()</b> : By using entries, we get both the key and pair values.Ex:- Object.entries(object) we get [["name", "kingkong"], ["power", "smash"]]
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-header">
+            Find ME at
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a href="https://github.com/pantherblack34" target="_blank"><img src="/image/github-modified.png" alt="github"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://twitter.com/AmalOusephspook?s=09" target="_blank"><img src="/image/twitter-modified.png" alt="twitter"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="http://" target="_blank"><img src="/image/linked-modified.png" alt="linkedin"></a>
+            </li>
+        </ul>
+    </footer>
+    
+    </body>
+    </html>
